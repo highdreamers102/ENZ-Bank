@@ -2,6 +2,11 @@
 
 A modern Bank Management System built with Python, Streamlit and SQLite.
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![SQLite](https://img.shields.io/badge/Database-SQLite-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 ## Features
 
 ✅ Secure Login
@@ -72,16 +77,18 @@ streamlit run app.py
 ## Admin Action
 ![Admin](assets/screenshots/admin_action.png)
 
-## Future Improvements
+## 🚀 Future Improvements
 
-OTP Verification
+- OTP Verification
+- Loan Management
+- Analytics Dashboard
+- Email Notifications
+- Mobile Responsive UI
+## 👨‍💻 Author
 
-Loan Module
+**Tushar**
 
-Analytics Dashboard
-
-Email Notifications
-
+GitHub: https://github.com/highdreamers102
 ## Author
 
-Tushar
+Tus
