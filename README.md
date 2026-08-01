@@ -48,7 +48,29 @@ streamlit run app.py
 
 ## Screenshots
 
-(Add screenshots)
+## Home
+![Home](assets/screenshots/home.png)
+
+## Login Dashboard
+![Dashboard](assets/screenshots/login_dashboard.png)
+
+## Create Account
+![Wallet](assets/screenshots/create_account.png)
+
+## User Profile
+![Transactions](assets/screenshots/user_profile.png)
+
+## User QR
+![Admin](assets/screenshots/user_qr.png)
+
+## Admin Dashboard
+![Admin](assets/screenshots/admin_dashboard.png)
+
+## Admin Account Management
+![Admin](assets/screenshots/admin_account_management.png)
+
+## Admin Action
+![Admin](assets/screenshots/admin_action.png)
 
 ## Future Improvements
 
