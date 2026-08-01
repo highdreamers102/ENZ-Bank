@@ -89,6 +89,3 @@ streamlit run app.py
 **Tushar**
 
 GitHub: https://github.com/highdreamers102
-## Author
-
-Tus
