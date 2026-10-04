@@ -3,4 +3,4 @@ __pycache__/
 *.db-journal
 .env
 .vscode/
-.idea/
+.idea/data.db
