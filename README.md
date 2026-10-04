@@ -4,7 +4,10 @@ A modern Bank Management System built with Python, Streamlit and SQLite.
 
 **Live demo:** https://enz-bank.streamlit.app/
 
-> Demo project, not for real money. Demo data resets periodically (free hosting).
+**Live demo:** https://enz-bank.streamlit.app/
+
+
+> Demo project, not for real money. First load may take up to a minute, and demo data resets periodically (free hosting).
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 
@@ -13,6 +16,9 @@ A modern Bank Management System built with Python, Streamlit and SQLite.
 ![SQLite](https://img.shields.io/badge/Database-SQLite-green)
 
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+## Security note
+This is a learning project, not production banking software. PINs and the admin password are hashed with unsalted SHA-256, which is not suitable for real money. A production system would use bcrypt or argon2 with per-user salts.
 
 ## Features
 
