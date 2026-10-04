@@ -22,7 +22,7 @@ DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.db")
 BANK_IFSC_CODE = "ENZB0000001"
 
 # Where profile photos are stored on disk (path saved in the accounts table).
-PROFILE_PHOTO_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "profile_photos")
+PROFILE_PHOTO_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "profile_photos")
 os.makedirs(PROFILE_PHOTO_DIR, exist_ok=True)
 
 UPI_DOMAIN = "enzbank"  # UPI IDs look like 9876543210@enzbank
