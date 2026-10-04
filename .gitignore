@@ -1,6 +1,8 @@
 __pycache__/
 *.py[cod]
+*.db
 *.db-journal
 .env
 .vscode/
-.idea/data.db
+.idea/
+.streamlit/secrets.toml

@@ -117,15 +117,15 @@ def init_db():
             cur.execute(statement)
     conn.commit()
 
-    # Seed a default admin account if none exists yet (username: admin / password: admin123)
+    # Seed an admin only if ADMIN_PASSWORD is provided (never hardcode credentials)
+    admin_password = os.environ.get("ADMIN_PASSWORD")
     cur.execute("SELECT COUNT(*) as c FROM admins")
-    if cur.fetchone()["c"] == 0:
+    if admin_password and cur.fetchone()["c"] == 0:
         import hashlib
-        default_hash = hashlib.sha256("admin123".encode()).hexdigest()
+        admin_user = os.environ.get("ADMIN_USERNAME", "admin")
+        pw_hash = hashlib.sha256(admin_password.encode()).hexdigest()
         cur.execute(
             "INSERT INTO admins (username, password_hash) VALUES (?, ?)",
-            ("admin", default_hash),
+            (admin_user, pw_hash),
         )
         conn.commit()
-
-    conn.close()
