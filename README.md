@@ -7,22 +7,35 @@ A modern Bank Management System built with Python, Streamlit and SQLite.
 > Demo project, not for real money. Demo data resets periodically (free hosting).
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
+
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+
 ![SQLite](https://img.shields.io/badge/Database-SQLite-green)
+
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ## Features
 
 ✅ Secure Login
+
 ✅ SQLite Database
+
 ✅ Deposit & Withdraw
+
 ✅ Money Transfer
+
 ✅ Wallet
+
 ✅ QR Scan & Pay
+
 ✅ UPI Transfer
+
 ✅ Transaction History
+
 ✅ PDF Statement Export
+
 ✅ Profile Management
+
 ✅ Admin Dashboard
 
 ## Tech Stack
@@ -74,12 +87,18 @@ streamlit run app.py
 ## 🚀 Future Improvements
 
 - OTP Verification
-- Loan Management
-- Analytics Dashboard
-- Email Notifications
-- Mobile Responsive UI
-## 👨‍💻 Author
 
+- Loan Management
+
+- Analytics Dashboard
+
+- Email Notifications
+
+- Mobile Responsive UI
+
+## 👨‍💻 Author
 **Tushar**
 
-GitHub: https://github.com/highdreamers102
+[LinkedIn](https://www.linkedin.com/in/tushar-bhardwaj-b89973422)
+
+[GitHub](https://github.com/highdreamers102)
