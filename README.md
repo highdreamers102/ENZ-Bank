@@ -2,6 +2,10 @@
 
 A modern Bank Management System built with Python, Streamlit and SQLite.
 
+**Live demo:** https://enz-bank.streamlit.app/
+
+> Demo project, not for real money. Demo data resets periodically (free hosting).
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-green)
@@ -10,25 +14,15 @@ A modern Bank Management System built with Python, Streamlit and SQLite.
 ## Features
 
 ✅ Secure Login
-
 ✅ SQLite Database
-
 ✅ Deposit & Withdraw
-
 ✅ Money Transfer
-
 ✅ Wallet
-
 ✅ QR Scan & Pay
-
 ✅ UPI Transfer
-
 ✅ Transaction History
-
 ✅ PDF Statement Export
-
 ✅ Profile Management
-
 ✅ Admin Dashboard
 
 ## Tech Stack
